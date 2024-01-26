@@ -40,6 +40,12 @@ li > button {
   background-color: #242424;
 }
 
+li > button:hover {
+  text-decoration: line-through;
+  background-color: #242424;
+  cursor: pointer;
+}
+
 h1 {
   font-size: 3rem;
 }
@@ -58,6 +64,10 @@ button {
   padding-right: 1.5rem;
   margin-left: 0.5rem;
   font-size: 1rem;
+}
+
+button:hover {
+  background-color: #747bff;
 }
 
 input {
