@@ -8,11 +8,11 @@ const TodoBody = () => {
 
 
     return (
-      <>
+      <main>
         <List toDoList={toDoList} />
         <Input setToDoList={setToDoList} />
         <Refresh setToDoList={setToDoList} />
-      </>
+      </main>
     );
 }
 export default TodoBody

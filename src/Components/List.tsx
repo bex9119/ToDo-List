@@ -13,7 +13,8 @@ const List = ({ toDoList }: ListProps) => {
     if(toDoList){
         return (
         <ul>
-        {toDoList.map((item, index) => {
+                {toDoList.map((item, index) => {
+            if (item.input.length > 0){
             return (
               <li key={index}>
                 <button
@@ -23,7 +24,7 @@ const List = ({ toDoList }: ListProps) => {
                   {item.input}
                 </button>
               </li>
-            );
+            )};
         })}
                 </ul>
     )
