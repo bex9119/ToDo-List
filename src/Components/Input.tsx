@@ -20,8 +20,8 @@ const Input = (props: ListProps,) => {
 
     return (
       <form onSubmit={handleSubmit}>
-        <label>To Remember:
-          <input type='text' placeholder="add an item" onChange={updateInput} value={input}/>
+        <label>
+          <input type='text' placeholder="Add an item" onChange={updateInput} value={input}/>
             </label>
             <button>+</button>
       </form>
