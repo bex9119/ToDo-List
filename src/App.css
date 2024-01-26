@@ -5,3 +5,10 @@
   text-align: center;
 }
 
+.notComplete {
+  text-decoration: none;
+}
+
+.complete {
+  text-decoration: line-through;
+}

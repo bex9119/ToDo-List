@@ -3,7 +3,12 @@ import {
   SetStateAction,
 } from "react";
 
+type Item = {
+    input: string
+    complete: boolean
+}
+
 export interface ListProps {
-  setToDoList?: Dispatch<SetStateAction<string[]>>;
-  toDoList?: string[];
+  setToDoList?: Dispatch<SetStateAction<Item[]>>;
+    toDoList?: Item[];
 }
