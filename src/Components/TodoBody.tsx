@@ -4,7 +4,7 @@ import List from "./List"
 import Refresh from "./Refresh"
 
 const TodoBody = () => {
-    const [toDoList, setToDoList] = useState<string[]>([''])
+    const [toDoList, setToDoList] = useState([{input: '', complete: false }])
 
 
     return (

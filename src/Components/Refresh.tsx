@@ -5,7 +5,7 @@ const Refresh = (props: ListProps) => {
     
     const resetList = (): void => {
         if (setToDoList) {
-        setToDoList([''])}
+        setToDoList([{ input: "", complete: false }]);}
     }
     return (
         <button onClick={resetList}>Reset List</button>

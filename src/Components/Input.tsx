@@ -12,7 +12,7 @@ const Input = (props: ListProps,) => {
         event.preventDefault()
         if(setToDoList){
         setToDoList((currToDoList) => {
-            return [...currToDoList, input]
+            return [...currToDoList, {input: input, complete: false}]
         })
         }
         setInput('')
