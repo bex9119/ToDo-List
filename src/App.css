@@ -42,7 +42,6 @@ li > button {
 }
 
 li > button:hover {
-  text-decoration: line-through;
   cursor: pointer;
     background-color: #242424;
 }
