@@ -35,6 +35,7 @@ ul {
 
 li {
   border-bottom: 2px solid white;
+    background-color: #242424;
 }
 li > button {
   background-color: #242424;
@@ -42,8 +43,8 @@ li > button {
 
 li > button:hover {
   text-decoration: line-through;
-  background-color: #242424;
   cursor: pointer;
+    background-color: #242424;
 }
 
 h1 {

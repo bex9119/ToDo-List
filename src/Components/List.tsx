@@ -3,10 +3,11 @@ import { ListProps } from "../interfaces"
 
 const List = ({ toDoList }: ListProps) => {
 
-    const changeClass = (event: UIEvent) => {
+  const changeClass = (event: UIEvent) => {
         if (event.currentTarget.className === "notComplete") {
           event.currentTarget.className = "complete";
         } else {
+          console.log('change')
           event.currentTarget.className = "notComplete";
         }
     }
@@ -18,7 +19,7 @@ const List = ({ toDoList }: ListProps) => {
             return (
               <li key={index}>
                 <button
-                  className={item.complete ? "complete" : "notComplete"}
+                  className="notComplete"
                   onClick={changeClass}
                 >
                   {item.input}
